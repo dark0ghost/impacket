@@ -43,4 +43,4 @@ with:
 context: .
 push: true
 tags: {% raw %}${{ steps.meta.outputs.tags }}
-labels: ${{ steps.meta.outputs.labels }} 
+labels: ${{ steps.meta.outputs.labels }}
